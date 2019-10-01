@@ -82,5 +82,22 @@ class AddingMachineTest {
 		output = test.getTotal();
 		assertEquals(-5, output);
 		test.clear();
+		
+		//10. Long complicated case for add and subtract
+		test.subtract(1);
+		test.subtract(2);
+		test.subtract(3);
+		test.subtract(4);
+		test.subtract(5);
+		test.add(6);
+		test.add(7);
+		test.add(8);
+		test.add(9);
+		test.add(10);
+		outputS = test.toString();
+		assertEquals("0 - 1 - 2 - 3 - 4 - 5 + 6 + 7 + 8 + 9 + 10", outputS);
+		output = test.getTotal();
+		assertEquals(25, output);
+		test.clear();
 	}
 }
