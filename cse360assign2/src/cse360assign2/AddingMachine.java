@@ -1,3 +1,11 @@
+//Brandon Barrett
+//CSE360 - Wednesday 9:30am
+//Assignment 2
+
+/* Calculates via addition or subtraction different inputs. 
+   The form of inputs can be returned either as an integer sum value.
+   Or it can be returned as a sequence of inputs in string format */
+
 package cse360assign2;
 
 public class AddingMachine 
