@@ -26,3 +26,13 @@ Example:
 5. The clear method clears the string and the current total.
 
 ## CSE360Assignment3
+
+Change the AddingMachine.java class in the previous assignment to:
+1. Instance variables have protected visibility
+2. Correct the style and any errors in the class from the previous assignment.
+
+Create a calculator.java class which:
+1. Inherits from AddingMachine.java
+2. Add three aditional methods which handle multiplication, division and exponents
+3. If dvision by 0 is detected, set the total to 0. Do not clear the string.
+4. If raising a number by a negative power, set the total to 0. Do not clear the string.
